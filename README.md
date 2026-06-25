@@ -132,13 +132,13 @@ cargo build --release
 - `cargo clippy --all-targets -- -D warnings`: pass
 - `cargo build --release`: pass
 
-設計資料と実装報告は[ドキュメント索引](DOC/ShufflePic%20ドキュメント索引.md)から参照できます。
+内部設計は[詳細設計書](DOC/ShufflePic%20v1.0%20詳細設計書.md)を参照してください（過去の要求定義・実装報告・前身設計は `DOC/archive/`）。
 
 ## Project structure
 
 ```text
 shufflepic/
-├── DOC/       # 操作マニュアル、要求定義、詳細設計、実装報告、公開計画
+├── DOC/       # 操作マニュアル・詳細設計書（過去資料は archive/）
 ├── assets/    # アイコン・スクリーンショット
 ├── docs/      # プライバシーポリシー（GitHub Pages）
 ├── v1.0/      # Rustソースコード（src/、packaging/）
@@ -155,9 +155,9 @@ shufflepic/
 ## Documentation
 
 - [操作マニュアル](DOC/ShufflePic%20v1.0%20操作マニュアル.md)
-- [要求定義書](DOC/ShufflePic%20v1.0%20要求定義書.md)
 - [詳細設計書](DOC/ShufflePic%20v1.0%20詳細設計書.md)
-- [実装報告](DOC/ShufflePic%20v1.0%20実装報告.md)
+
+過去の設計資料（要求定義・実装報告・デコード非同期化 設計提案・前身設計）は [`DOC/archive/`](DOC/archive) にあります。
 
 ## License
 
