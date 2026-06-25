@@ -1,0 +1,16 @@
+# Rust build artifacts
+/v1.0/target/
+
+# Local packaging artifacts and secrets — never commit
+/v1.0/packaging/staging/
+/v1.0/packaging/*.msix
+/v1.0/packaging/*.pfx
+/v1.0/packaging/*.cer
+
+# OS / editor
+Thumbs.db
+.DS_Store
+
+# Internal publishing materials — never publish
+/DOC/ShufflePic v1.0 ストア公開計画書.md
+/DOC/ShufflePic v1.0 ストア掲載情報.md
